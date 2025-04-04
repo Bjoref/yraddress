@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__top">
+          <div class="header__left">
+            <a href="/" class="header__logo">
+              <img
+                src="./assets/icons/logo.svg"
+                alt="Логотип"
+                class="header__logo-img"
+              />
+            </a>
+            <div class="header__slogan">
+              <p>Маркетплейс</p>
+              <p>юрадресов</p>
+            </div>
+          </div>
+
+          <div class="header__actions">
+            <button class="header__button">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12.5" cy="12.5" r="12.5" fill="#E7B500"/>
+                <path d="M11.872 17V9.8H13.584V17H11.872ZM9.04 14.2V12.6H16.416V14.2H9.04Z" fill="#FFFEFE"/>
+              </svg>
+              Разместить обьявление
+            </button>
+          </div>
+
+          <div class="header__actions_mobile">
+            <button class="header__phone_mobile">
+              <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="34" height="34" fill="#F3F3F3"/>
+                <path d="M21.8007 22.5255C20.6225 23.7091 17.5928 22.6101 14.9838 19.9892C12.459 17.453 11.2808 14.3249 12.459 13.1413L13.2165 12.3804C13.7214 11.8732 14.6472 11.8732 15.2363 12.3804L16.4145 13.564C17.0878 14.2404 17.0878 15.1703 16.4987 15.6776L16.3304 15.8467C16.0779 16.1848 16.0779 16.6076 16.3304 16.9457C16.5828 17.2839 16.8353 17.6221 17.172 17.8757C17.5086 18.2139 17.7611 18.4675 18.0977 18.7211C18.4344 18.9747 18.8552 18.9747 19.1918 18.6366L19.3601 18.4675C19.8651 17.9602 20.7908 17.9602 21.3799 18.4675L22.5582 19.6511C23.1473 20.2429 23.1473 21.0883 22.5582 21.6801L21.8007 22.5255Z" stroke="black"/>
+              </svg>
+            </button>
+
+            <button class="header__burger">
+              <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="34" height="34" fill="#E7B500"/>
+                <line x1="10" y1="12.25" x2="24" y2="12.25" stroke="white" stroke-width="1.5"/>
+                <line x1="10" y1="17.25" x2="19" y2="17.25" stroke="white" stroke-width="1.5"/>
+                <line x1="10" y1="22.25" x2="24" y2="22.25" stroke="white" stroke-width="1.5"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="header__bottom">
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li class="header__item">
+                <a href="#" class="header__link header__link_active">
+                  Главная
+                </a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">
+                  Адреса
+                </a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">
+                  Услуги
+                </a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">
+                  Полезное
+                </a>
+              </li>
+              <li class="header__item">
+                <a href="#" class="header__link">
+                  Контакты
+                </a>
+              </li>
+
+              
+            </ul>
+          </nav>
+          <button class="header__call">
+            Заказать обратный звонок
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.75 1.05026C9.75 0.636051 9.41421 0.300264 9 0.300263L2.25 0.30025C1.83579 0.300249 1.5 0.636034 1.5 1.05025C1.5 1.46446 1.83578 1.80025 2.25 1.80025L8.25 1.80026L8.24999 7.80026C8.24999 8.21447 8.58577 8.55026 8.99999 8.55026C9.4142 8.55026 9.74999 8.21448 9.74999 7.80026L9.75 1.05026ZM1.58056 9.53033L9.53033 1.58059L8.46967 0.519932L0.519903 8.46967L1.58056 9.53033Z" fill="#E7B500"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-hero">
+      <div class="container section-hero__container">
+        <h1 class="section-hero__title">
+          <span class="section-hero__title-lead">Юрадрес.ру</span>&nbsp;&ndash; маркетплейс юридических адресов
+        </h1>
+        <p class="section-hero__text">
+          Все адреса предоставлены собственниками без посредников
+        </p>
+      </div>
+    </section>
+
+    <section class="section-map">
+      <div class="section-map__container container">
+        <div class="section-map__tax">
+          
+          <div class="section-map__tax-regions">
+            <h2 class="section-map__tax-title">Выберете&nbsp;налоговую</h2>
+            <button class="section-map__tax-region section-map__tax-region--active">по&nbsp;Москве</button>
+            <button class="section-map__tax-region">по&nbsp;мос.&nbsp;области</button>
+            <button class="section-map__tax-region">по&nbsp;России</button>
+          </div>
+          
+          <div class="section-map__tax-grid">
+            <div class="section-map__tax-cell section-map__tax-cell_big">все</div>
+            <div class="section-map__tax-cell">1</div>
+            <div class="section-map__tax-cell">2</div>
+            <div class="section-map__tax-cell">3</div>
+            <div class="section-map__tax-cell">4</div>
+            <div class="section-map__tax-cell">5</div>
+            <div class="section-map__tax-cell">6</div>
+            <div class="section-map__tax-cell">7</div>
+            <div class="section-map__tax-cell">8</div>
+            <div class="section-map__tax-cell">10</div>
+            <div class="section-map__tax-cell">11</div>
+            <div class="section-map__tax-cell">12</div>
+            
+            <div class="section-map__tax-cell">13</div>
+            <div class="section-map__tax-cell">14</div>
+            <div class="section-map__tax-cell">15</div>
+            <div class="section-map__tax-cell">16</div>
+            <div class="section-map__tax-cell">17</div>
+            <div class="section-map__tax-cell">18</div>
+            <div class="section-map__tax-cell">19</div>
+            <div class="section-map__tax-cell">20</div>
+            <div class="section-map__tax-cell">21</div>
+            <div class="section-map__tax-cell">22</div>
+            <div class="section-map__tax-cell">23</div>
+            <div class="section-map__tax-cell">24</div>
+            <div class="section-map__tax-cell">25</div>
+            
+            <div class="section-map__tax-cell">26</div>
+            <div class="section-map__tax-cell">27</div>
+            <div class="section-map__tax-cell">28</div>
+            <div class="section-map__tax-cell">29</div>
+            <div class="section-map__tax-cell">30</div>
+            <div class="section-map__tax-cell">31</div>
+            <div class="section-map__tax-cell">32</div>
+            <div class="section-map__tax-cell">33</div>
+            <div class="section-map__tax-cell">34</div>
+            <div class="section-map__tax-cell">35</div>
+          </div>
+        </div>
+
+        <div class="section-map__actions">
+          <button class="section-map__action section-map__action_active">
+            Адрес Москва Сити
+          </button>
+          <button class="section-map__action section-map__action_two">
+            Адрес в&nbsp;Бизнес центре
+          </button>
+          <button class="section-map__action section-map__action_three">
+            Адрес для переезда из&nbsp;региона
+          </button>
+        </div>
+      </div>
+
+      <div class="section-map__map"></div>
+    </section>
+
+    <section class="section-offer">
+      <div class="container section-offer__container">
+        <div class="section-offer__top">
+          <h2 class="section-offer__title">
+            Спец. предложения
+          </h2>
+
+          <div class="section-offer__navigation">
+            <button class="section-offer__navigation-button section-offer__navigation-button_prev">
+              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="59.5001" y="59.5" width="59" height="59" transform="rotate(-180 59.5001 59.5)" stroke="#E5E5E5"/>
+                <path d="M21.5405 29.5404C21.2867 29.7942 21.2867 30.2058 21.5405 30.4596L25.6771 34.5962C25.9309 34.85 26.3425 34.85 26.5963 34.5962C26.8502 34.3424 26.8502 33.9308 26.5963 33.677L22.9194 30L26.5963 26.323C26.8502 26.0692 26.8502 25.6576 26.5963 25.4038C26.3425 25.15 25.9309 25.15 25.6771 25.4038L21.5405 29.5404ZM38.0001 29.35L22.0001 29.35L22.0001 30.65L38.0001 30.65L38.0001 29.35Z" fill="#777469"/>
+              </svg>
+            </button>
+            <button class="section-offer__navigation-button section-offer__navigation-button_next">
+              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.00012207" y="0.00183105" width="60" height="60" fill="#F3F3F3"/>
+                <path d="M38.5305 30.5322C38.8233 30.2393 38.8233 29.7644 38.5305 29.4715L33.7575 24.6985C33.4646 24.4056 32.9897 24.4056 32.6968 24.6985C32.4039 24.9914 32.4039 25.4663 32.6968 25.7592L36.9395 30.0018L32.6968 34.2445C32.4039 34.5374 32.4039 35.0122 32.6968 35.3051C32.9897 35.598 33.4646 35.598 33.7575 35.3051L38.5305 30.5322ZM22.0001 30.7518L38.0001 30.7518V29.2518L22.0001 29.2518V30.7518Z" fill="black"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="section-offer__offers">
+          <div class="section-offer__offer section-offer__offer_one">
+            <div class="section-offer__offer-header">
+              <p class="section-offer__name">
+                Налоговая <span class="section-offer__number">№24</span>
+              </p>
+              <div class="section-offer__transparent"></div>
+            </div>
+
+            <div class="section-offer__content">
+              <p class="section-offer__address">
+                Москва, ул. Бирюлевская, д.&nbsp;24, корп.&nbsp;1
+              </p>
+              <p class="section-offer__price">
+                21000р./&nbsp;11&nbsp;мес.
+              </p>
+              <p class="section-offer__size">
+                47&nbsp;кв.м.
+              </p>
+            </div>
+
+            <div class="section-offer__actions">
+              <button class="section-offer__button section-offer__button_about">
+                Подробнее
+              </button>
+              <button class="section-offer__button section-offer__button_order">
+                Заказать
+              </button>
+            </div>
+
+          </div>
+
+          <div class="section-offer__offer section-offer__offer_two">
+            <div class="section-offer__offer-header">
+              <p class="section-offer__name">
+                Налоговая <span class="section-offer__number">№24</span>
+              </p>
+              <div class="section-offer__transparent"></div>
+            </div>
+
+            <div class="section-offer__content">
+              <p class="section-offer__address">
+                Москва, ул. Бирюлевская, д.&nbsp;24, корп.&nbsp;1
+              </p>
+              <p class="section-offer__price">
+                21000р./&nbsp;11&nbsp;мес.
+              </p>
+              <p class="section-offer__size">
+                47&nbsp;кв.м.
+              </p>
+            </div>
+
+            <div class="section-offer__actions">
+              <button class="section-offer__button section-offer__button_about">
+                Подробнее
+              </button>
+              <button class="section-offer__button section-offer__button_order">
+                Заказать
+              </button>
+            </div>
+
+          </div>
+
+          <div class="section-offer__offer section-offer__offer_three">
+            <div class="section-offer__offer-header">
+              <p class="section-offer__name">
+                Налоговая <span class="section-offer__number">№24</span>
+              </p>
+              <div class="section-offer__transparent"></div>
+            </div>
+
+            <div class="section-offer__content">
+              <p class="section-offer__address">
+                Москва, ул. Бирюлевская, д.&nbsp;24, корп.&nbsp;1
+              </p>
+              <p class="section-offer__price">
+                21000р./&nbsp;11&nbsp;мес.
+              </p>
+              <p class="section-offer__size">
+                47&nbsp;кв.м.
+              </p>
+            </div>
+
+            <div class="section-offer__actions">
+              <button class="section-offer__button section-offer__button_about">
+                Подробнее
+              </button>
+              <button class="section-offer__button section-offer__button_order">
+                Заказать
+              </button>
+            </div>
+
+          </div>
+
+          <div class="section-offer__offer section-offer__offer_four">
+            <div class="section-offer__offer-header">
+              <p class="section-offer__name">
+                Налоговая <span class="section-offer__number">№24</span>
+              </p>
+              <div class="section-offer__transparent"></div>
+            </div>
+
+            <div class="section-offer__content">
+              <p class="section-offer__address">
+                Москва, ул. Бирюлевская, д.&nbsp;24, корп.&nbsp;1
+              </p>
+              <p class="section-offer__price">
+                21000р./&nbsp;11&nbsp;мес.
+              </p>
+              <p class="section-offer__size">
+                47&nbsp;кв.м.
+              </p>
+            </div>
+
+            <div class="section-offer__actions">
+              <button class="section-offer__button section-offer__button_about">
+                Подробнее
+              </button>
+              <button class="section-offer__button section-offer__button_order">
+                Заказать
+              </button>
+            </div>
+
+          </div>
+          
+        </div>
+
+        <div class="section-offer__navigation section-offer__navigation_mobile">
+          <button class="section-offer__navigation-button section-offer__navigation-button_prev">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="59.5001" y="59.5" width="59" height="59" transform="rotate(-180 59.5001 59.5)" stroke="#E5E5E5"/>
+              <path d="M21.5405 29.5404C21.2867 29.7942 21.2867 30.2058 21.5405 30.4596L25.6771 34.5962C25.9309 34.85 26.3425 34.85 26.5963 34.5962C26.8502 34.3424 26.8502 33.9308 26.5963 33.677L22.9194 30L26.5963 26.323C26.8502 26.0692 26.8502 25.6576 26.5963 25.4038C26.3425 25.15 25.9309 25.15 25.6771 25.4038L21.5405 29.5404ZM38.0001 29.35L22.0001 29.35L22.0001 30.65L38.0001 30.65L38.0001 29.35Z" fill="#777469"/>
+            </svg>
+          </button>
+          <button class="section-offer__navigation-button section-offer__navigation-button_next">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.00012207" y="0.00183105" width="60" height="60" fill="#F3F3F3"/>
+              <path d="M38.5305 30.5322C38.8233 30.2393 38.8233 29.7644 38.5305 29.4715L33.7575 24.6985C33.4646 24.4056 32.9897 24.4056 32.6968 24.6985C32.4039 24.9914 32.4039 25.4663 32.6968 25.7592L36.9395 30.0018L32.6968 34.2445C32.4039 34.5374 32.4039 35.0122 32.6968 35.3051C32.9897 35.598 33.4646 35.598 33.7575 35.3051L38.5305 30.5322ZM22.0001 30.7518L38.0001 30.7518V29.2518L22.0001 29.2518V30.7518Z" fill="black"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="section-offer__top">
+          <h2 class="section-offer__title">
+            Адрес Москва Сити
+          </h2>
+
+          <div class="section-offer__navigation">
+            <button class="section-offer__navigation-button section-offer__navigation-button_prev">
+              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="59.5001" y="59.5" width="59" height="59" transform="rotate(-180 59.5001 59.5)" stroke="#E5E5E5"/>
+                <path d="M21.5405 29.5404C21.2867 29.7942 21.2867 30.2058 21.5405 30.4596L25.6771 34.5962C25.9309 34.85 26.3425 34.85 26.5963 34.5962C26.8502 34.3424 26.8502 33.9308 26.5963 33.677L22.9194 30L26.5963 26.323C26.8502 26.0692 26.8502 25.6576 26.5963 25.4038C26.3425 25.15 25.9309 25.15 25.6771 25.4038L21.5405 29.5404ZM38.0001 29.35L22.0001 29.35L22.0001 30.65L38.0001 30.65L38.0001 29.35Z" fill="#777469"/>
+              </svg>
+            </button>
+            <button class="section-offer__navigation-button section-offer__navigation-button_next">
+              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.00012207" y="0.00183105" width="60" height="60" fill="#F3F3F3"/>
+                <path d="M38.5305 30.5322C38.8233 30.2393 38.8233 29.7644 38.5305 29.4715L33.7575 24.6985C33.4646 24.4056 32.9897 24.4056 32.6968 24.6985C32.4039 24.9914 32.4039 25.4663 32.6968 25.7592L36.9395 30.0018L32.6968 34.2445C32.4039 34.5374 32.4039 35.0122 32.6968 35.3051C32.9897 35.598 33.4646 35.598 33.7575 35.3051L38.5305 30.5322ZM22.0001 30.7518L38.0001 30.7518V29.2518L22.0001 29.2518V30.7518Z" fill="black"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="section-offer__offers">
+          <div class="section-offer__offer section-offer__offer_one">
+            <div class="section-offer__offer-header">
+              <p class="section-offer__name">
+                Налоговая <span class="section-offer__number">№24</span>
+              </p>
+              <div class="section-offer__transparent"></div>
+            </div>
+
+            <div class="section-offer__content">
+              <p class="section-offer__address">
+                Москва, ул. Бирюлевская, д.&nbsp;24, корп.&nbsp;1
+              </p>
+              <p class="section-offer__price">
+                21000р./&nbsp;11&nbsp;мес.
+              </p>
+              <p class="section-offer__size">
+                47&nbsp;кв.м.
+              </p>
+            </div>
+
+            <div class="section-offer__actions">
+              <button class="section-offer__button section-offer__button_about">
+                Подробнее
+              </button>
+              <button class="section-offer__button section-offer__button_order">
+                Заказать
+              </button>
+            </div>
+
+          </div>
+
+          <div class="section-offer__offer section-offer__offer_two">
+            <div class="section-offer__offer-header">
+              <p class="section-offer__name">
+                Налоговая <span class="section-offer__number">№24</span>
+              </p>
+              <div class="section-offer__transparent"></div>
+            </div>
+
+            <div class="section-offer__content">
+              <p class="section-offer__address">
+                Москва, ул. Бирюлевская, д.&nbsp;24, корп.&nbsp;1
+              </p>
+              <p class="section-offer__price">
+                21000р./&nbsp;11&nbsp;мес.
+              </p>
+              <p class="section-offer__size">
+                47&nbsp;кв.м.
+              </p>
+            </div>
+
+            <div class="section-offer__actions">
+              <button class="section-offer__button section-offer__button_about">
+                Подробнее
+              </button>
+              <button class="section-offer__button section-offer__button_order">
+                Заказать
+              </button>
+            </div>
+
+          </div>
+
+          <div class="section-offer__offer section-offer__offer_three">
+            <div class="section-offer__offer-header">
+              <p class="section-offer__name">
+                Налоговая <span class="section-offer__number">№24</span>
+              </p>
+              <div class="section-offer__transparent"></div>
+            </div>
+
+            <div class="section-offer__content">
+              <p class="section-offer__address">
+                Москва, ул. Бирюлевская, д.&nbsp;24, корп.&nbsp;1
+              </p>
+              <p class="section-offer__price">
+                21000р./&nbsp;11&nbsp;мес.
+              </p>
+              <p class="section-offer__size">
+                47&nbsp;кв.м.
+              </p>
+            </div>
+
+            <div class="section-offer__actions">
+              <button class="section-offer__button section-offer__button_about">
+                Подробнее
+              </button>
+              <button class="section-offer__button section-offer__button_order">
+                Заказать
+              </button>
+            </div>
+
+          </div>
+
+          <div class="section-offer__offer section-offer__offer_four">
+            <div class="section-offer__offer-header">
+              <p class="section-offer__name">
+                Налоговая <span class="section-offer__number">№24</span>
+              </p>
+              <div class="section-offer__transparent"></div>
+            </div>
+
+            <div class="section-offer__content">
+              <p class="section-offer__address">
+                Москва, ул. Бирюлевская, д.&nbsp;24, корп.&nbsp;1
+              </p>
+              <p class="section-offer__price">
+                21000р./&nbsp;11&nbsp;мес.
+              </p>
+              <p class="section-offer__size">
+                47&nbsp;кв.м.
+              </p>
+            </div>
+
+            <div class="section-offer__actions">
+              <button class="section-offer__button section-offer__button_about">
+                Подробнее
+              </button>
+              <button class="section-offer__button section-offer__button_order">
+                Заказать
+              </button>
+            </div>
+
+          </div>
+          
+        </div>
+
+        <div class="section-offer__navigation section-offer__navigation_mobile">
+          <button class="section-offer__navigation-button section-offer__navigation-button_prev">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="59.5001" y="59.5" width="59" height="59" transform="rotate(-180 59.5001 59.5)" stroke="#E5E5E5"/>
+              <path d="M21.5405 29.5404C21.2867 29.7942 21.2867 30.2058 21.5405 30.4596L25.6771 34.5962C25.9309 34.85 26.3425 34.85 26.5963 34.5962C26.8502 34.3424 26.8502 33.9308 26.5963 33.677L22.9194 30L26.5963 26.323C26.8502 26.0692 26.8502 25.6576 26.5963 25.4038C26.3425 25.15 25.9309 25.15 25.6771 25.4038L21.5405 29.5404ZM38.0001 29.35L22.0001 29.35L22.0001 30.65L38.0001 30.65L38.0001 29.35Z" fill="#777469"/>
+            </svg>
+          </button>
+          <button class="section-offer__navigation-button section-offer__navigation-button_next">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.00012207" y="0.00183105" width="60" height="60" fill="#F3F3F3"/>
+              <path d="M38.5305 30.5322C38.8233 30.2393 38.8233 29.7644 38.5305 29.4715L33.7575 24.6985C33.4646 24.4056 32.9897 24.4056 32.6968 24.6985C32.4039 24.9914 32.4039 25.4663 32.6968 25.7592L36.9395 30.0018L32.6968 34.2445C32.4039 34.5374 32.4039 35.0122 32.6968 35.3051C32.9897 35.598 33.4646 35.598 33.7575 35.3051L38.5305 30.5322ZM22.0001 30.7518L38.0001 30.7518V29.2518L22.0001 29.2518V30.7518Z" fill="black"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="section-offer__top">
+          <h2 class="section-offer__title">
+            Адрес для переезда из региона
+          </h2>
+
+          <div class="section-offer__navigation">
+            <button class="section-offer__navigation-button section-offer__navigation-button_prev">
+              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="59.5001" y="59.5" width="59" height="59" transform="rotate(-180 59.5001 59.5)" stroke="#E5E5E5"/>
+                <path d="M21.5405 29.5404C21.2867 29.7942 21.2867 30.2058 21.5405 30.4596L25.6771 34.5962C25.9309 34.85 26.3425 34.85 26.5963 34.5962C26.8502 34.3424 26.8502 33.9308 26.5963 33.677L22.9194 30L26.5963 26.323C26.8502 26.0692 26.8502 25.6576 26.5963 25.4038C26.3425 25.15 25.9309 25.15 25.6771 25.4038L21.5405 29.5404ZM38.0001 29.35L22.0001 29.35L22.0001 30.65L38.0001 30.65L38.0001 29.35Z" fill="#777469"/>
+              </svg>
+            </button>
+            <button class="section-offer__navigation-button section-offer__navigation-button_next">
+              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.00012207" y="0.00183105" width="60" height="60" fill="#F3F3F3"/>
+                <path d="M38.5305 30.5322C38.8233 30.2393 38.8233 29.7644 38.5305 29.4715L33.7575 24.6985C33.4646 24.4056 32.9897 24.4056 32.6968 24.6985C32.4039 24.9914 32.4039 25.4663 32.6968 25.7592L36.9395 30.0018L32.6968 34.2445C32.4039 34.5374 32.4039 35.0122 32.6968 35.3051C32.9897 35.598 33.4646 35.598 33.7575 35.3051L38.5305 30.5322ZM22.0001 30.7518L38.0001 30.7518V29.2518L22.0001 29.2518V30.7518Z" fill="black"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="section-offer__offers">
+          <div class="section-offer__offer section-offer__offer_one">
+            <div class="section-offer__offer-header">
+              <p class="section-offer__name">
+                Налоговая <span class="section-offer__number">№24</span>
+              </p>
+              <div class="section-offer__transparent"></div>
+            </div>
+
+            <div class="section-offer__content">
+              <p class="section-offer__address">
+                Москва, ул. Бирюлевская, д.&nbsp;24, корп.&nbsp;1
+              </p>
+              <p class="section-offer__price">
+                21000р./&nbsp;11&nbsp;мес.
+              </p>
+              <p class="section-offer__size">
+                47&nbsp;кв.м.
+              </p>
+            </div>
+
+            <div class="section-offer__actions">
+              <button class="section-offer__button section-offer__button_about">
+                Подробнее
+              </button>
+              <button class="section-offer__button section-offer__button_order">
+                Заказать
+              </button>
+            </div>
+
+          </div>
+
+          <div class="section-offer__offer section-offer__offer_two">
+            <div class="section-offer__offer-header">
+              <p class="section-offer__name">
+                Налоговая <span class="section-offer__number">№24</span>
+              </p>
+              <div class="section-offer__transparent"></div>
+            </div>
+
+            <div class="section-offer__content">
+              <p class="section-offer__address">
+                Москва, ул. Бирюлевская, д.&nbsp;24, корп.&nbsp;1
+              </p>
+              <p class="section-offer__price">
+                21000р./&nbsp;11&nbsp;мес.
+              </p>
+              <p class="section-offer__size">
+                47&nbsp;кв.м.
+              </p>
+            </div>
+
+            <div class="section-offer__actions">
+              <button class="section-offer__button section-offer__button_about">
+                Подробнее
+              </button>
+              <button class="section-offer__button section-offer__button_order">
+                Заказать
+              </button>
+            </div>
+
+          </div>
+
+          <div class="section-offer__offer section-offer__offer_three">
+            <div class="section-offer__offer-header">
+              <p class="section-offer__name">
+                Налоговая <span class="section-offer__number">№24</span>
+              </p>
+              <div class="section-offer__transparent"></div>
+            </div>
+
+            <div class="section-offer__content">
+              <p class="section-offer__address">
+                Москва, ул. Бирюлевская, д.&nbsp;24, корп.&nbsp;1
+              </p>
+              <p class="section-offer__price">
+                21000р./&nbsp;11&nbsp;мес.
+              </p>
+              <p class="section-offer__size">
+                47&nbsp;кв.м.
+              </p>
+            </div>
+
+            <div class="section-offer__actions">
+              <button class="section-offer__button section-offer__button_about">
+                Подробнее
+              </button>
+              <button class="section-offer__button section-offer__button_order">
+                Заказать
+              </button>
+            </div>
+
+          </div>
+
+          <div class="section-offer__offer section-offer__offer_four">
+            <div class="section-offer__offer-header">
+              <p class="section-offer__name">
+                Налоговая <span class="section-offer__number">№24</span>
+              </p>
+              <div class="section-offer__transparent"></div>
+            </div>
+
+            <div class="section-offer__content">
+              <p class="section-offer__address">
+                Москва, ул. Бирюлевская, д.&nbsp;24, корп.&nbsp;1
+              </p>
+              <p class="section-offer__price">
+                21000р./&nbsp;11&nbsp;мес.
+              </p>
+              <p class="section-offer__size">
+                47&nbsp;кв.м.
+              </p>
+            </div>
+
+            <div class="section-offer__actions">
+              <button class="section-offer__button section-offer__button_about">
+                Подробнее
+              </button>
+              <button class="section-offer__button section-offer__button_order">
+                Заказать
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-offer__navigation section-offer__navigation_mobile">
+          <button class="section-offer__navigation-button section-offer__navigation-button_prev">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="59.5001" y="59.5" width="59" height="59" transform="rotate(-180 59.5001 59.5)" stroke="#E5E5E5"/>
+              <path d="M21.5405 29.5404C21.2867 29.7942 21.2867 30.2058 21.5405 30.4596L25.6771 34.5962C25.9309 34.85 26.3425 34.85 26.5963 34.5962C26.8502 34.3424 26.8502 33.9308 26.5963 33.677L22.9194 30L26.5963 26.323C26.8502 26.0692 26.8502 25.6576 26.5963 25.4038C26.3425 25.15 25.9309 25.15 25.6771 25.4038L21.5405 29.5404ZM38.0001 29.35L22.0001 29.35L22.0001 30.65L38.0001 30.65L38.0001 29.35Z" fill="#777469"/>
+            </svg>
+          </button>
+          <button class="section-offer__navigation-button section-offer__navigation-button_next">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.00012207" y="0.00183105" width="60" height="60" fill="#F3F3F3"/>
+              <path d="M38.5305 30.5322C38.8233 30.2393 38.8233 29.7644 38.5305 29.4715L33.7575 24.6985C33.4646 24.4056 32.9897 24.4056 32.6968 24.6985C32.4039 24.9914 32.4039 25.4663 32.6968 25.7592L36.9395 30.0018L32.6968 34.2445C32.4039 34.5374 32.4039 35.0122 32.6968 35.3051C32.9897 35.598 33.4646 35.598 33.7575 35.3051L38.5305 30.5322ZM22.0001 30.7518L38.0001 30.7518V29.2518L22.0001 29.2518V30.7518Z" fill="black"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-reviews">
+      <div class="section-reviews__bg">
+        <div class="section-reviews__container container">
+          <div class="section-reviews__content">
+            <h2 class="section-reviews__title">
+              Отзывы о компании <span class="section-reviews__title-lead">Юрадрес.ру</span>
+            </h2>
+            <p class="section-reviews__text">
+              Смотреть отзывы о компании на независимых площадках
+            </p>
+          </div> 
+        </div>
+      </div>
+
+      <div class="section-reviews__container container">
+        <ul class="section-reviews__list">
+          <li class="section-reviews__item">
+            <a href="" class="section-reviews__link">
+              <img src="/assets/images/section-reviews/section-reviews__y.png" alt="Yandex">
+            </a>
+          </li>
+          <li class="section-reviews__item">
+            <a href="" class="section-reviews__link">
+              <img src="/assets/images/section-reviews/section-reviews__g.png" alt="Google">
+            </a>
+          </li>
+          <li class="section-reviews__item">
+            <a href="" class="section-reviews__link">
+              <img src="/assets/images/section-reviews/section-reviews__2g.png" alt="2 гис">
+            </a>
+          </li>
+          <li class="section-reviews__item">
+            <a href="" class="section-reviews__link">
+              <img src="/assets/images/section-reviews/section-reviews__o.png" alt="Отзовик">
+            </a>
+          </li>
+          <li class="section-reviews__item">
+            <a href="" class="section-reviews__link">
+              <img src="/assets/images/section-reviews/section-reviews__vk.png" alt="Вконтакте">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section-news">
+      <div class="container section-news__container">
+        <h2 class="section-news__title">
+          Новости Юридических адресов
+        </h2>
+        <p class="section-news__subtitle">
+          Последние новости нашей компании
+        </p>
+
+        <ul class="section-news__list">
+          <li class="section-news__item">
+            <div class="section-news__top">
+              <svg viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.55" d="M12.9319 5.38203V10.7753C12.9319 12.6369 11.448 14.1461 9.61751 14.1461H4.31443C2.48392 14.1461 1 12.6369 1 10.7753V5.38203M12.9319 5.38203C12.9319 3.5204 11.448 2.01125 9.61751 2.01125H4.31443C2.48392 2.01125 1 3.5204 1 5.38203M12.9319 5.38203H1M9.94895 1V3.02247M3.98298 1V3.02247M3.3201 8.07866H3.98298M6.63452 8.07866H7.29741M9.94895 8.07866H10.6118M3.3201 10.7753H3.98298M6.63452 10.7753H7.29741M9.94895 10.7753H10.6118" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+
+              <p class="section-news__date">
+                22.05.24
+              </p>
+            </div>
+
+            <div class="section-news__content">
+              <h3 class="section-news__item-title">
+                Как выбрать Юридический адрес в 2025 году
+              </h3>
+              <a href="#" class="section-news__item-link">
+                Подробнее
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.75 1.05026C9.75 0.636051 9.41421 0.300264 9 0.300263L2.25 0.30025C1.83579 0.300249 1.5 0.636034 1.5 1.05025C1.5 1.46446 1.83578 1.80025 2.25 1.80025L8.25 1.80026L8.24999 7.80026C8.24999 8.21447 8.58577 8.55026 8.99999 8.55026C9.4142 8.55026 9.74999 8.21448 9.74999 7.80026L9.75 1.05026ZM1.58056 9.53033L9.53033 1.58059L8.46967 0.519932L0.519903 8.46967L1.58056 9.53033Z" fill="#E7B500"/>
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li class="section-news__item">
+            <div class="section-news__top">
+              <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.55" d="M12.9319 5.38203V10.7753C12.9319 12.6369 11.448 14.1461 9.61751 14.1461H4.31443C2.48392 14.1461 1 12.6369 1 10.7753V5.38203M12.9319 5.38203C12.9319 3.5204 11.448 2.01125 9.61751 2.01125H4.31443C2.48392 2.01125 1 3.5204 1 5.38203M12.9319 5.38203H1M9.94895 1V3.02247M3.98298 1V3.02247M3.3201 8.07866H3.98298M6.63452 8.07866H7.29741M9.94895 8.07866H10.6118M3.3201 10.7753H3.98298M6.63452 10.7753H7.29741M9.94895 10.7753H10.6118" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+
+              <p class="section-news__date">
+                22.05.24
+              </p>
+            </div>
+
+            <div class="section-news__content">
+              <h3 class="section-news__item-title">
+                Как выбрать Юридический адрес в 2025 году
+              </h3>
+              <a href="#" class="section-news__item-link">
+                Подробнее
+                <svg viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.75 1.05026C9.75 0.636051 9.41421 0.300264 9 0.300263L2.25 0.30025C1.83579 0.300249 1.5 0.636034 1.5 1.05025C1.5 1.46446 1.83578 1.80025 2.25 1.80025L8.25 1.80026L8.24999 7.80026C8.24999 8.21447 8.58577 8.55026 8.99999 8.55026C9.4142 8.55026 9.74999 8.21448 9.74999 7.80026L9.75 1.05026ZM1.58056 9.53033L9.53033 1.58059L8.46967 0.519932L0.519903 8.46967L1.58056 9.53033Z" fill="#E7B500"/>
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li class="section-news__item">
+            <div class="section-news__top">
+              <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.55" d="M12.9319 5.38203V10.7753C12.9319 12.6369 11.448 14.1461 9.61751 14.1461H4.31443C2.48392 14.1461 1 12.6369 1 10.7753V5.38203M12.9319 5.38203C12.9319 3.5204 11.448 2.01125 9.61751 2.01125H4.31443C2.48392 2.01125 1 3.5204 1 5.38203M12.9319 5.38203H1M9.94895 1V3.02247M3.98298 1V3.02247M3.3201 8.07866H3.98298M6.63452 8.07866H7.29741M9.94895 8.07866H10.6118M3.3201 10.7753H3.98298M6.63452 10.7753H7.29741M9.94895 10.7753H10.6118" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+
+              <p class="section-news__date">
+                22.05.24
+              </p>
+            </div>
+
+            <div class="section-news__content">
+              <h3 class="section-news__item-title">
+                Как выбрать Юридический адрес в 2025 году
+              </h3>
+              <a href="#" class="section-news__item-link">
+                Подробнее
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.75 1.05026C9.75 0.636051 9.41421 0.300264 9 0.300263L2.25 0.30025C1.83579 0.300249 1.5 0.636034 1.5 1.05025C1.5 1.46446 1.83578 1.80025 2.25 1.80025L8.25 1.80026L8.24999 7.80026C8.24999 8.21447 8.58577 8.55026 8.99999 8.55026C9.4142 8.55026 9.74999 8.21448 9.74999 7.80026L9.75 1.05026ZM1.58056 9.53033L9.53033 1.58059L8.46967 0.519932L0.519903 8.46967L1.58056 9.53033Z" fill="#E7B500"/>
+                </svg>
+              </a>
+            </div>
+          </li>
+
+          <li class="section-news__item">
+            <div class="section-news__top">
+              <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path opacity="0.55" d="M12.9319 5.38203V10.7753C12.9319 12.6369 11.448 14.1461 9.61751 14.1461H4.31443C2.48392 14.1461 1 12.6369 1 10.7753V5.38203M12.9319 5.38203C12.9319 3.5204 11.448 2.01125 9.61751 2.01125H4.31443C2.48392 2.01125 1 3.5204 1 5.38203M12.9319 5.38203H1M9.94895 1V3.02247M3.98298 1V3.02247M3.3201 8.07866H3.98298M6.63452 8.07866H7.29741M9.94895 8.07866H10.6118M3.3201 10.7753H3.98298M6.63452 10.7753H7.29741M9.94895 10.7753H10.6118" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+
+              <p class="section-news__date">
+                22.05.24
+              </p>
+            </div>
+
+            <div class="section-news__content">
+              <h3 class="section-news__item-title">
+                Как выбрать Юридический адрес в 2025 году
+              </h3>
+              <a href="#" class="section-news__item-link">
+                Подробнее
+                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.75 1.05026C9.75 0.636051 9.41421 0.300264 9 0.300263L2.25 0.30025C1.83579 0.300249 1.5 0.636034 1.5 1.05025C1.5 1.46446 1.83578 1.80025 2.25 1.80025L8.25 1.80026L8.24999 7.80026C8.24999 8.21447 8.58577 8.55026 8.99999 8.55026C9.4142 8.55026 9.74999 8.21448 9.74999 7.80026L9.75 1.05026ZM1.58056 9.53033L9.53033 1.58059L8.46967 0.519932L0.519903 8.46967L1.58056 9.53033Z" fill="#E7B500"/>
+                </svg>
+              </a>
+            </div>
+          </li>
+        </ul>
+
+        <div class="section-news__footer">
+
+          <button class="section-news__button">
+            Смотреть все новости
+          </button>
+          
+          <div class="section-news__navigation">
+            <button class="section-news__navigation-button section-news__navigation-button_prev">
+              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="59.5001" y="59.5" width="59" height="59" transform="rotate(-180 59.5001 59.5)" stroke="#E5E5E5"/>
+                <path d="M21.5405 29.5404C21.2867 29.7942 21.2867 30.2058 21.5405 30.4596L25.6771 34.5962C25.9309 34.85 26.3425 34.85 26.5963 34.5962C26.8502 34.3424 26.8502 33.9308 26.5963 33.677L22.9194 30L26.5963 26.323C26.8502 26.0692 26.8502 25.6576 26.5963 25.4038C26.3425 25.15 25.9309 25.15 25.6771 25.4038L21.5405 29.5404ZM38.0001 29.35L22.0001 29.35L22.0001 30.65L38.0001 30.65L38.0001 29.35Z" fill="#777469"/>
+              </svg>
+            </button>
+            <button class="section-news__navigation-button section-news__navigation-button_next">
+              <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.00012207" y="0.00183105" width="60" height="60" fill="#F3F3F3"/>
+                <path d="M38.5305 30.5322C38.8233 30.2393 38.8233 29.7644 38.5305 29.4715L33.7575 24.6985C33.4646 24.4056 32.9897 24.4056 32.6968 24.6985C32.4039 24.9914 32.4039 25.4663 32.6968 25.7592L36.9395 30.0018L32.6968 34.2445C32.4039 34.5374 32.4039 35.0122 32.6968 35.3051C32.9897 35.598 33.4646 35.598 33.7575 35.3051L38.5305 30.5322ZM22.0001 30.7518L38.0001 30.7518V29.2518L22.0001 29.2518V30.7518Z" fill="black"/>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
